@@ -73,7 +73,7 @@ function updateMessage() {
     messageEl.textContent = "It's a tie!";
   
   } else {
-    messageEl.textContent = `Congratulations! Player ${turn === "X" ? "O" : "X"} Wins!`;
+    messageEl.textContent = `Congratulations! Player ${turn === "O" ? "X" : "O"} Wins!`;
 
   }
 }
